@@ -5,6 +5,12 @@ node_js:
 services:
  - docker
 
+install:
+ - echo "nothing needs to be installed"
+
+before_script:
+ - echo "no tests"
+
 ## Assuming the .travis.yml file is in the project directory, and there is a separate sub-directory for each service
 ## Use either `docker-compose` or individual `docker build` commands
 ## Build
