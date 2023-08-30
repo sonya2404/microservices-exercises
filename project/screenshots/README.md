@@ -7,7 +7,7 @@ To help review your infrastructure, please include the following screenshots in 
 * Travis CI showing a successful build and deploy job
 
 ## Kubernetes
-* To verify Kubernetes pods are deployed properly
+* To verify Kubernetes pods are deployed prcd ..operly
 ```bash
 kubectl get pods
 ```
