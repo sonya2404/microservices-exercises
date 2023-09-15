@@ -15,7 +15,7 @@ spec:
         service: backend-feed
     spec:
       containers:
-      - image: sonya2404/udagram-api-feed
+      - image: sonya2404/udagram-api-feed:v1
         name: udagram-feed
         imagePullPolicy: Always  
         resources:

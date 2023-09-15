@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: sonya2404/udagram-frontend
+      - image: sonya2404/udagram-frontend:v2
         name: frontend
         imagePullPolicy: Always          
         ports:

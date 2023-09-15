@@ -15,7 +15,7 @@ spec:
         service: reverseproxy
     spec:
       containers:
-      - image: sonya2404/reverseproxy
+      - image: sonya2404/reverseproxy:v1
         name: reverseproxy
         imagePullPolicy: Always          
         resources:
